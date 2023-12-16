@@ -1,0 +1,11 @@
+.answer {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 100%;
+}
+
+.answer__text {
+    max-width: 80%;
+    align-self: center;
+}

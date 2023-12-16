@@ -9,6 +9,7 @@
 .user-bage__avatar {
     max-width: var(--avatar-size);
     max-height: var(--avatar-size);
+    align-self: flex-start;
 
     &:hover {
         cursor: pointer;
