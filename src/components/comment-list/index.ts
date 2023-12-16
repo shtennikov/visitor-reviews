@@ -12,7 +12,6 @@ export class CommentList extends BaseComponent {
         this.comments = comments;
 
         this.render();
-        this.renderAnswers();
     }
 
     protected get template(): string {
@@ -21,7 +20,9 @@ export class CommentList extends BaseComponent {
             </div>`;
     }
 
-    private renderAnswers(): void {
+    protected render(): void {
+        super.render();
+
         this.comments.forEach((comment) => {
             const answerComponent = new AnswerItem(comment.respondent, comment.comment);
 

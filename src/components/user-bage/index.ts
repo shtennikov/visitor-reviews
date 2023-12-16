@@ -13,14 +13,15 @@ export class UserBadge extends BaseComponent {
 
         this.user = respondent;
         this.render();
-        this.renderBage();
     }
 
     protected get template(): string {
         return `<div class="user-bage"></div>`;
     }
 
-    private renderBage(): void {
+    protected render(): void {
+        super.render();
+
         const avatar = document.createElement('img');
         const identifier = document.createElement('span');
 

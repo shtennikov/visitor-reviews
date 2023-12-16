@@ -12,7 +12,6 @@ export class UserInfo extends BaseComponent {
 
         this.user = respondent;
         this.render();
-        this.renderUserData();
     }
 
     public get template(): string {
@@ -21,7 +20,9 @@ export class UserInfo extends BaseComponent {
             </div>`;
     }
 
-    private renderUserData(): void {
+    protected render(): void {
+        super.render();
+
         const dataList = document.createElement('div');
         dataList.classList.add('user-info__list');
 

@@ -25,7 +25,9 @@ export class AnswerItem extends BaseComponent {
             </div>`;
     }
 
-    private renderAnswer(): void {
+    protected render(): void {
+        super.render();
+
         const comment = document.createElement('span');
 
         comment.classList.add('answer__text');
