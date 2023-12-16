@@ -1,5 +1,6 @@
 import { Comment } from '../../types/comment.interface';
 import { BaseComponent } from '../BaseComponent';
+import { CloseButton } from '../close-button';
 import { CommentItem } from '../comment';
 import './comment-list.css';
 
@@ -15,7 +16,7 @@ export class CommentList extends BaseComponent {
     }
 
     protected get template(): string {
-        return `<div class="comments">
+        return `<div class="wrapper">
                 <!-- Comment list -->
             </div>`;
     }
@@ -23,10 +24,18 @@ export class CommentList extends BaseComponent {
     protected render(): void {
         super.render();
 
+        const closeButton = new CloseButton();
+        const comments = document.createElement('div');
+
+        closeButton.element.classList.add('comments__close-btn');
+        comments.classList.add('comments');
+
         this.comments.forEach((comment) => {
             const answerComponent = new CommentItem(comment.respondent, comment.comment);
 
-            this.node.append(answerComponent.element);
+            comments.append(answerComponent.element);
         });
+
+        this.node.append(closeButton.element, comments);
     }
 }
