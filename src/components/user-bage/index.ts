@@ -6,13 +6,12 @@ import './user-bage.css';
 
 export class UserBadge extends BaseComponent {
     private user: Respondent;
-    private userInfoComponent: UserInfo;
+    private tooltip!: UserInfo;
 
     constructor(respondent: Respondent) {
         super();
 
         this.user = respondent;
-        this.userInfoComponent = new UserInfo(respondent);
         this.render();
         this.renderBage();
     }
@@ -31,6 +30,18 @@ export class UserBadge extends BaseComponent {
         avatar.src = this.user.avatar || avatarImage;
         identifier.insertAdjacentText('beforeend', this.user.name || this.user.email || this.user.phone || '');
 
+        this.setHoverListeners(avatar);
         this.node.append(avatar, identifier);
+    }
+
+    private setHoverListeners(avatarNode: HTMLImageElement): void {
+        avatarNode.addEventListener('mouseover', () => {
+            this.tooltip = new UserInfo(this.user);
+            this.node.append(this.tooltip.element);
+        });
+
+        avatarNode.addEventListener('mouseout', () => {
+            this.tooltip.destroy();
+        });
     }
 }

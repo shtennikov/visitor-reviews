@@ -1,9 +1,11 @@
 .user-info {
+    position: absolute;
     padding: 10px;
     max-width: fit-content;
     border-radius: var(--radius);
     background-color: var(--main-background);
     box-shadow: var(--shadow);
+    transform: translateY(70%);
 }
 
 .user-info__list {
