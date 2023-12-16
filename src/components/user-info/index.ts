@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-expressions */
 import { Respondent } from '../../types/respondent.interface';
 import { BaseComponent } from '../BaseComponent';
+import avatarImage from '../../assets/avatar.png';
 import './user-info.css';
 
 export class UserInfo extends BaseComponent {
@@ -24,14 +25,12 @@ export class UserInfo extends BaseComponent {
         const dataList = document.createElement('div');
         dataList.classList.add('user-info__list');
 
-        if (this.user.avatar) {
-            const img = document.createElement('img');
-            img.classList.add('user-info__img');
-            img.src = this.user.avatar;
-            img.alt = 'User avatar';
+        const img = document.createElement('img');
+        img.classList.add('user-info__img');
+        img.src = this.user.avatar || avatarImage;
+        img.alt = 'User avatar';
 
-            dataList.append(img);
-        }
+        dataList.append(img);
         this.user.name && dataList.append(this.renderItem(this.user.name));
         this.user.phone && dataList.append(this.renderItem(this.user.phone));
         this.user.email && dataList.append(this.renderItem(this.user.email));

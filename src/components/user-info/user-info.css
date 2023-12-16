@@ -12,6 +12,6 @@
 }
 
 .user-info__img {
-    max-width: 30px;
-    max-height: 30px;
+    max-width: var(--avatar-size);
+    max-height: var(--avatar-size);
 }
