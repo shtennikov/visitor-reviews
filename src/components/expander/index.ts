@@ -1,4 +1,4 @@
-import { Answer } from '../../types/answer.interface';
+import { Comment } from '../../types/comment.interface';
 import { QuestionOptions } from '../../types/questionOptions.interface';
 import { BaseComponent } from '../BaseComponent';
 import './expander.css';
@@ -8,7 +8,7 @@ export class Expander extends BaseComponent {
     private option: string;
     private count: number;
     private percentage: number;
-    private answers: Answer[];
+    private comments: Comment[];
     private isActive = false;
 
     constructor(options: QuestionOptions) {
@@ -18,7 +18,7 @@ export class Expander extends BaseComponent {
         this.option = options.option;
         this.count = options.count;
         this.percentage = options.percentage;
-        this.answers = options.answers;
+        this.comments = options.comments;
 
         this.render();
         this.initListeners();

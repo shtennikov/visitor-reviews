@@ -1,15 +1,15 @@
-import { Answer } from '../../types/answer.interface';
+import { Comment } from '../../types/comment.interface';
 import { BaseComponent } from '../BaseComponent';
 import { AnswerItem } from '../answer';
-import './answer-list.css';
+import './comment-list.css';
 
-export class AnswerList extends BaseComponent {
-    private answers: Answer[];
+export class CommentList extends BaseComponent {
+    private comments: Comment[];
 
-    constructor(answers: Answer[]) {
+    constructor(comments: Comment[]) {
         super();
 
-        this.answers = answers;
+        this.comments = comments;
 
         this.render();
         this.renderAnswers();
@@ -22,8 +22,8 @@ export class AnswerList extends BaseComponent {
     }
 
     private renderAnswers(): void {
-        this.answers.forEach((answer) => {
-            const answerComponent = new AnswerItem(answer.respondent, answer.comment);
+        this.comments.forEach((comment) => {
+            const answerComponent = new AnswerItem(comment.respondent, comment.comment);
 
             this.node.append(answerComponent.element);
         });

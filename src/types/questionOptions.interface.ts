@@ -1,9 +1,9 @@
-import { Answer } from './answer.interface';
+import { Comment } from './comment.interface';
 
 export interface QuestionOptions {
     id: number;
     option: string;
     count: number;
     percentage: number;
-    answers: Answer[];
+    comments: Comment[];
 }

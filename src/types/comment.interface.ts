@@ -1,6 +1,6 @@
 import { Respondent } from './respondent.interface';
 
-export interface Answer {
+export interface Comment {
     respondent: Respondent;
     comment: string;
 }
