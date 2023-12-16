@@ -36,9 +36,16 @@ export class UserBadge extends BaseComponent {
     }
 
     private setHoverListeners(avatarNode: HTMLImageElement): void {
-        avatarNode.addEventListener('mouseover', () => {
+        avatarNode.addEventListener('mouseover', (e: MouseEvent) => {
             this.tooltip = new UserInfo(this.user);
             this.node.append(this.tooltip.element);
+            document.body.append(this.tooltip.element);
+
+            const x = e.clientX;
+            const y = e.clientY;
+
+            this.tooltip.element.style.left = `${x + 15}px`;
+            this.tooltip.element.style.top = `${y - 70}px`;
         });
 
         avatarNode.addEventListener('mouseout', () => {
