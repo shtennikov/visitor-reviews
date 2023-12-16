@@ -1,6 +1,5 @@
 .user-bage {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     max-width: fit-content;
     gap: 10px;

@@ -7,3 +7,9 @@
 body {
     background-color: var(--body-color);
 }
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

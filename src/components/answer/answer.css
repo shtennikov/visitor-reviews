@@ -6,6 +6,25 @@
 }
 
 .answer__text {
-    max-width: 80%;
     align-self: center;
+}
+
+.answer__user {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .answer {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .answer__text {
+        align-self: flex-start;
+    }
+
+    .answer__user {
+        min-width: fit-content;
+    }
 }
