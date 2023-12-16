@@ -1,3 +1,4 @@
+import { EventEmitter } from '../../core/EventEmitter';
 import { Comment } from '../../types/comment.interface';
 import { QuestionOptions } from '../../types/questionOptions.interface';
 import { BaseComponent } from '../BaseComponent';
@@ -9,9 +10,10 @@ export class Expander extends BaseComponent {
     private count: number;
     private percentage: number;
     private comments: Comment[];
+    private emitter: EventEmitter;
     private isActive = false;
 
-    constructor(options: QuestionOptions) {
+    constructor(options: QuestionOptions, emitter: EventEmitter) {
         super();
 
         this.id = options.id;
@@ -19,9 +21,20 @@ export class Expander extends BaseComponent {
         this.count = options.count;
         this.percentage = options.percentage;
         this.comments = options.comments;
+        this.emitter = emitter;
 
         this.render();
         this.initListeners();
+    }
+
+    public setActive(): void {
+        this.isActive = true;
+        this.node.classList.add('active');
+    }
+
+    public setInactive(): void {
+        this.isActive = false;
+        this.node.classList.remove('active');
     }
 
     protected get template(): string {
@@ -39,10 +52,12 @@ export class Expander extends BaseComponent {
     }
 
     private initListeners(): void {
-        // TODO Observer
         this.node.addEventListener('click', () => {
-            this.node.classList.toggle('active');
-            this.isActive = !this.isActive;
+            if (!this.isActive) {
+                this.emitter.emit('active', this, this.comments);
+            } else {
+                this.emitter.emit('unactive', this);
+            }
         });
     }
 }
