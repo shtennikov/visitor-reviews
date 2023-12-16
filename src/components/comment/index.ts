@@ -1,9 +1,9 @@
 import { Respondent } from '../../types/respondent.interface';
 import { BaseComponent } from '../BaseComponent';
 import { UserBadge } from '../user-bage';
-import './answer.css';
+import './comment.css';
 
-export class AnswerItem extends BaseComponent {
+export class CommentItem extends BaseComponent {
     private respondent: Respondent;
     private comment: string;
     private bage: UserBadge;
@@ -16,12 +16,11 @@ export class AnswerItem extends BaseComponent {
         this.bage = new UserBadge(this.respondent);
 
         this.render();
-        this.renderAnswer();
     }
 
     protected get template(): string {
-        return `<div class="answer">
-                <!-- UserBage  Comment -->
+        return `<div class="comment">
+                <!-- UserBage and Comment -->
             </div>`;
     }
 

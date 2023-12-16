@@ -1,6 +1,6 @@
 import { Comment } from '../../types/comment.interface';
 import { BaseComponent } from '../BaseComponent';
-import { AnswerItem } from '../answer';
+import { CommentItem } from '../comment';
 import './comment-list.css';
 
 export class CommentList extends BaseComponent {
@@ -24,7 +24,7 @@ export class CommentList extends BaseComponent {
         super.render();
 
         this.comments.forEach((comment) => {
-            const answerComponent = new AnswerItem(comment.respondent, comment.comment);
+            const answerComponent = new CommentItem(comment.respondent, comment.comment);
 
             this.node.append(answerComponent.element);
         });
