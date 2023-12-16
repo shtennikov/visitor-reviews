@@ -1,0 +1,16 @@
+.user-bage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: fit-content;
+    gap: 10px;
+}
+
+.user-bage__avatar {
+    max-width: var(--avatar-size);
+    max-height: var(--avatar-size);
+
+    &:hover {
+        cursor: pointer;
+    }
+}
