@@ -9,6 +9,7 @@
     overflow: auto;
     border-radius: var(--radius);
     box-shadow: var(--shadow);
+    background-color: var(--main-background);
 }
 
 .comments__close-btn {
