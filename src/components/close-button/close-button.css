@@ -1,0 +1,11 @@
+.close-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    background-color: var(--gray);
+    background-image: url(../../assets/close-button.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
