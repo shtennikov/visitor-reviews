@@ -1,0 +1,17 @@
+.user-info {
+    padding: 10px;
+    max-width: fit-content;
+    border-radius: var(--radius);
+    background-color: var(--main-background);
+    box-shadow: var(--shadow);
+}
+
+.user-info__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info__img {
+    max-width: 30px;
+    max-height: 30px;
+}
