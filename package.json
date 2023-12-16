@@ -23,6 +23,7 @@
         "eslint-plugin-import": "^2.29.1",
         "html-webpack-plugin": "^5.5.4",
         "husky": "^8.0.0",
+        "json-loader": "^0.5.7",
         "lint-staged": "^15.2.0",
         "mini-css-extract-plugin": "^2.7.6",
         "postcss": "^8.4.32",
