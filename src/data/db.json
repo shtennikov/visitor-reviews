@@ -1,0 +1,796 @@
+{
+    "question": "Какое блюдо лучше?",
+    "answers": [
+        {
+            "id": 1,
+            "option": "Макарошки",
+            "count": 40,
+            "percentage": 33.33,
+            "comments": [
+                {
+                    "respondent": {
+                        "name": "Dominic",
+                        "email": "email@example.com",
+                        "avatar": "https://avotar.ru/avatar/krutye/100/14.jpg"
+                    },
+                    "comment": "Макарошки - это святое. Но важнее семья."
+                },
+                {
+                    "respondent": {
+                        "avatar": "https://avotar.ru/avatar/strashnye/100/1.jpg"
+                    },
+                    "comment": "Спасибо за качественный продукт. Пользуюсь им с удовольствием."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (777) 888-9999",
+                        "email": "john.doe@example.com"
+                    },
+                    "comment": "The product is fantastic. I'm a satisfied customer."
+                },
+                {
+                    "respondent": {
+                        "name": "Игорь"
+                    },
+                    "comment": "Продукт отличный! Пользуюсь им каждый день."
+                },
+                {
+                    "respondent": {
+                        "email": "igor@gmail.com"
+                    },
+                    "comment": "Good product, but there is room for improvement."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (444) 555-6666"
+                    },
+                    "comment": "Отличный продукт! Спасибо за ваш труд и талант."
+                },
+                {
+                    "respondent": {
+                        "name": "Алина",
+                        "email": "alina@mail.com"
+                    },
+                    "comment": "Great features and user-friendly interface."
+                },
+                {
+                    "respondent": {},
+                    "comment": "Продукт просто супер! Рекомендую всем своим друзьям."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (666) 555-4444",
+                        "email": "lina@example.com"
+                    },
+                    "comment": "I love the product. It's exactly what I needed."
+                },
+                {
+                    "respondent": {
+                        "name": "Михаил",
+                        "phone": "+7 (111) 222-3333",
+                        "email": "michael@example.com"
+                    },
+                    "comment": "Продукт просто замечательный! Спасибо за ваш труд."
+                },
+                {
+                    "respondent": {
+                        "email": "emma@gmail.com"
+                    },
+                    "comment": "Good product, but there is room for improvement."
+                },
+                {
+                    "respondent": {
+                        "avatar": "https://avotar.ru/avatar/strashnye/100/1.jpg"
+                    },
+                    "comment": "Спасибо за качественный продукт. Пользуюсь им с удовольствием."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (777) 888-9999",
+                        "email": "john.doe@example.com"
+                    },
+                    "comment": "The product is fantastic. I'm a satisfied customer."
+                },
+                {
+                    "respondent": {
+                        "name": "Игорь"
+                    },
+                    "comment": "Продукт отличный! Пользуюсь им каждый день."
+                },
+                {
+                    "respondent": {
+                        "email": "igor@gmail.com"
+                    },
+                    "comment": "Good product, but there is room for improvement."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (444) 555-6666"
+                    },
+                    "comment": "Отличный продукт! Спасибо за ваш труд и талант."
+                },
+                {
+                    "respondent": {
+                        "name": "Алина",
+                        "email": "alina@mail.com"
+                    },
+                    "comment": "Great features and user-friendly interface."
+                },
+                {
+                    "respondent": {},
+                    "comment": "Продукт просто супер! Рекомендую всем своим друзьям."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (666) 555-4444",
+                        "email": "lina@example.com"
+                    },
+                    "comment": "I love the product. It's exactly what I needed."
+                },
+                {
+                    "respondent": {
+                        "name": "Михаил",
+                        "phone": "+7 (111) 222-3333",
+                        "email": "michael@example.com"
+                    },
+                    "comment": "Продукт просто замечательный! Спасибо за ваш труд."
+                },
+                {
+                    "respondent": {
+                        "email": "emma@gmail.com"
+                    },
+                    "comment": "Good product, but there is room for improvement."
+                },
+                {
+                    "respondent": {
+                        "avatar": "https://avotar.ru/avatar/strashnye/100/1.jpg"
+                    },
+                    "comment": "Спасибо за качественный продукт. Пользуюсь им с удовольствием."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (777) 888-9999",
+                        "email": "john.doe@example.com"
+                    },
+                    "comment": "The product is fantastic. I'm a satisfied customer."
+                },
+                {
+                    "respondent": {
+                        "name": "Игорь"
+                    },
+                    "comment": "Продукт отличный! Пользуюсь им каждый день."
+                },
+                {
+                    "respondent": {
+                        "email": "igor@gmail.com"
+                    },
+                    "comment": "Good product, but there is room for improvement."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (444) 555-6666"
+                    },
+                    "comment": "Отличный продукт! Спасибо за ваш труд и талант."
+                },
+                {
+                    "respondent": {
+                        "name": "Алина",
+                        "email": "alina@mail.com"
+                    },
+                    "comment": "Great features and user-friendly interface."
+                },
+                {
+                    "respondent": {},
+                    "comment": "Продукт просто супер! Рекомендую всем своим друзьям."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (666) 555-4444",
+                        "email": "lina@example.com"
+                    },
+                    "comment": "I love the product. It's exactly what I needed."
+                },
+                {
+                    "respondent": {
+                        "name": "Михаил",
+                        "phone": "+7 (111) 222-3333",
+                        "email": "michael@example.com"
+                    },
+                    "comment": "Продукт просто замечательный! Спасибо за ваш труд."
+                },
+                {
+                    "respondent": {
+                        "email": "emma@gmail.com"
+                    },
+                    "comment": "Good product, but there is room for improvement."
+                },
+                {
+                    "respondent": {
+                        "avatar": "https://avotar.ru/avatar/strashnye/100/1.jpg"
+                    },
+                    "comment": "Спасибо за качественный продукт. Пользуюсь им с удовольствием."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (777) 888-9999",
+                        "email": "john.doe@example.com"
+                    },
+                    "comment": "The product is fantastic. I'm a satisfied customer."
+                },
+                {
+                    "respondent": {
+                        "name": "Игорь"
+                    },
+                    "comment": "Продукт отличный! Пользуюсь им каждый день."
+                },
+                {
+                    "respondent": {
+                        "email": "igor@gmail.com"
+                    },
+                    "comment": "Good product, but there is room for improvement."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (444) 555-6666"
+                    },
+                    "comment": "Отличный продукт! Спасибо за ваш труд и талант."
+                },
+                {
+                    "respondent": {
+                        "name": "Алина",
+                        "email": "alina@mail.com"
+                    },
+                    "comment": "Great features and user-friendly interface."
+                },
+                {
+                    "respondent": {},
+                    "comment": "Продукт просто супер! Рекомендую всем своим друзьям."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (666) 555-4444",
+                        "email": "lina@example.com"
+                    },
+                    "comment": "I love the product. It's exactly what I needed."
+                },
+                {
+                    "respondent": {
+                        "name": "Михаил",
+                        "phone": "+7 (111) 222-3333",
+                        "email": "michael@example.com"
+                    },
+                    "comment": "Продукт просто замечательный! Спасибо за ваш труд."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "option": "Пельмешки",
+            "count": 30,
+            "percentage": 25,
+            "comments": [
+                {
+                    "respondent": {
+                        "avatar": "https://www.beamng.com/data/avatars/l/436/436954.jpg?1619290806",
+                        "name": "Floppa",
+                        "phone": "+7 (111) 222-3333",
+                        "email": "floppa@gmail.com"
+                    },
+                    "comment": "Хорошие пельмени - это очень, очень вкусно. На самом деле рецепт простой - много мяса, мало теста!"
+                },
+                {
+                    "respondent": {
+                        "email": "emma@gmail.com"
+                    },
+                    "comment": "Good product, but there is room for improvement."
+                },
+                {
+                    "respondent": {
+                        "avatar": "https://avotar.ru/avatar/mashiny/100/7.jpg",
+                        "phone": "+7 (987) 654-3210"
+                    },
+                    "comment": "Отличный продукт! Использую его каждый день."
+                },
+                {
+                    "respondent": {
+                        "email": "john.smith@mail.com"
+                    },
+                    "comment": "The product is excellent. I recommend it to everyone."
+                },
+                {
+                    "respondent": {
+                        "name": "Александр",
+                        "avatar": "https://avotar.ru/avatar/krutye/100/1.jpg"
+                    },
+                    "comment": "Спасибо за прекрасный продукт. Он мне очень помог."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (111) 222-3344",
+                        "email": "alexandra@mail.com"
+                    },
+                    "comment": "Great features and easy to use. I'm impressed."
+                },
+                {
+                    "respondent": {
+                        "avatar": "https://avotar.ru/avatar/cvety/100/4.jpg",
+                        "name": "Валентина"
+                    },
+                    "comment": "Продукт отличный! Рекомендую всем своим друзьям."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (555) 777-9999",
+                        "email": "greg@example.com"
+                    },
+                    "comment": "I'm satisfied with the product. Keep up the good work!"
+                },
+                {
+                    "respondent": {
+                        "name": "Григорий",
+                        "avatar": "https://avotar.ru/avatar/iz-filmov/100/8.jpg"
+                    },
+                    "comment": "Продукт просто великолепен. Очень довольна."
+                },
+                {
+                    "respondent": {
+                        "email": "valentina@gmail.com"
+                    },
+                    "comment": "Good job! The product exceeded my expectations."
+                },
+                {
+                    "respondent": {
+                        "avatar": "https://avotar.ru/avatar/strashnye/100/4.jpg",
+                        "phone": "+7 (333) 444-5555"
+                    },
+                    "comment": "Отличный продукт! Спасибо за ваш труд и талант."
+                },
+                {
+                    "respondent": {
+                        "name": "Екатерина",
+                        "email": "ekaterina@example.com"
+                    },
+                    "comment": "Great product! It's a must-have for everyone."
+                },
+                {
+                    "respondent": {
+                        "avatar": "https://avotar.ru/avatar/strashnye/100/1.jpg"
+                    },
+                    "comment": "Спасибо за качественный продукт. Пользуюсь им с удовольствием."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (777) 888-9999",
+                        "email": "john.doe@example.com"
+                    },
+                    "comment": "The product is fantastic. I'm a satisfied customer."
+                },
+                {
+                    "respondent": {
+                        "name": "Игорь"
+                    },
+                    "comment": "Продукт отличный! Пользуюсь им каждый день."
+                },
+                {
+                    "respondent": {
+                        "email": "igor@gmail.com"
+                    },
+                    "comment": "Good product, but there is room for improvement."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (444) 555-6666"
+                    },
+                    "comment": "Отличный продукт! Спасибо за ваш труд и талант."
+                },
+                {
+                    "respondent": {
+                        "name": "Алина",
+                        "email": "alina@mail.com"
+                    },
+                    "comment": "Great features and user-friendly interface."
+                },
+                {
+                    "respondent": {},
+                    "comment": "Продукт просто супер! Рекомендую всем своим друзьям."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (666) 555-4444",
+                        "email": "lina@example.com"
+                    },
+                    "comment": "I love the product. It's exactly what I needed."
+                },
+                {
+                    "respondent": {
+                        "name": "Михаил",
+                        "phone": "+7 (111) 222-3333",
+                        "email": "michael@example.com"
+                    },
+                    "comment": "Продукт просто замечательный! Спасибо за ваш труд."
+                },
+                {
+                    "respondent": {
+                        "email": "emma@gmail.com"
+                    },
+                    "comment": "Good product, but there is room for improvement."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (987) 654-3210"
+                    },
+                    "comment": "Отличный продукт! Использую его каждый день."
+                },
+                {
+                    "respondent": {
+                        "email": "john.smith@mail.com"
+                    },
+                    "comment": "The product is excellent. I recommend it to everyone."
+                },
+                {
+                    "respondent": {
+                        "name": "Александра"
+                    },
+                    "comment": "Спасибо за прекрасный продукт. Он мне очень помог."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (111) 222-3344",
+                        "email": "alexandra@mail.com"
+                    },
+                    "comment": "Great features and easy to use. I'm impressed."
+                },
+                {
+                    "respondent": {
+                        "name": "Григорий"
+                    },
+                    "comment": "Продукт отличный! Рекомендую всем своим друзьям."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (555) 777-9999",
+                        "email": "greg@example.com"
+                    },
+                    "comment": "I'm satisfied with the product. Keep up the good work!"
+                },
+                {
+                    "respondent": {
+                        "name": "Валентина"
+                    },
+                    "comment": "Продукт просто великолепен. Очень довольна."
+                },
+                {
+                    "respondent": {
+                        "email": "valentina@gmail.com"
+                    },
+                    "comment": "Good job! The product exceeded my expectations."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "option": "Пюрешка",
+            "count": 50,
+            "percentage": 41.67,
+            "comments": [
+                {
+                    "respondent": {
+                        "name": "Иван",
+                        "phone": "+7 (123) 456-7890",
+                        "email": "ivan@example.com"
+                    },
+                    "comment": "Отличный продукт! Но можно сделать еще лучше.бббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббб ой кот на клаву встал"
+                },
+                {
+                    "respondent": {
+                        "name": "Анна",
+                        "email": "anna@gmail.com"
+                    },
+                    "comment": "Good product, but there is room for improvement."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (987) 654-3210"
+                    },
+                    "comment": "Спасибо за продукт! Пользуюсь с удовольствием."
+                },
+                {
+                    "respondent": {
+                        "email": "john.doe@mail.com"
+                    },
+                    "comment": "I really like the features. Great job!"
+                },
+                {
+                    "respondent": {
+                        "name": "Елена"
+                    },
+                    "comment": "Nice product, easy to use. Keep up the good work!"
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (111) 222-3333",
+                        "email": "jack@example.com"
+                    },
+                    "comment": "Продукт полностью соответствует моим ожиданиям."
+                },
+                {
+                    "respondent": {
+                        "name": "Мария"
+                    },
+                    "comment": "Great product! I recommend it to everyone."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (555) 777-9999",
+                        "email": "maria@mail.com"
+                    },
+                    "comment": "Хороший продукт, но есть небольшие недочеты."
+                },
+                {
+                    "respondent": {
+                        "name": "Петр"
+                    },
+                    "comment": "Благодарю за отличный продукт! Очень удобный."
+                },
+                {
+                    "respondent": {
+                        "email": "peter@gmail.com"
+                    },
+                    "comment": "Good job! The product is amazing."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (333) 444-5555"
+                    },
+                    "comment": "Супер! Продукт превзошел мои ожидания."
+                },
+                {
+                    "respondent": {
+                        "name": "Светлана",
+                        "email": "svetlana@example.com"
+                    },
+                    "comment": "Great features and easy to use. I love it!"
+                },
+                {
+                    "respondent": {},
+                    "comment": "Отличный продукт, рекомендую всем!"
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (777) 888-9999",
+                        "email": "jane.doe@mail.com"
+                    },
+                    "comment": "I'm satisfied with the product. Good job!"
+                },
+                {
+                    "respondent": {
+                        "name": "Дмитрий",
+                        "phone": "+7 (999) 888-7777"
+                    },
+                    "comment": "Продукт просто великолепен. Спасибо!"
+                },
+                {
+                    "respondent": {
+                        "email": "dmitry@example.com"
+                    },
+                    "comment": "Good product, but there are a few things to improve."
+                },
+                {
+                    "respondent": {
+                        "name": "Ольга",
+                        "phone": "+7 (123) 987-6543"
+                    },
+                    "comment": "Отличное качество! Пользуюсь с удовольствием."
+                },
+                {
+                    "respondent": {
+                        "email": "olga@gmail.com"
+                    },
+                    "comment": "Great features and user-friendly interface."
+                },
+                {
+                    "respondent": {
+                        "name": "Николай"
+                    },
+                    "comment": "Продукт просто супер! Спасибо за ваш труд."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (111) 222-3344",
+                        "email": "nick@mail.com"
+                    },
+                    "comment": "The product is amazing. I recommend it to everyone!"
+                },
+                {
+                    "respondent": {},
+                    "comment": "Спасибо за отличный продукт. Пользуюсь каждый день."
+                },
+                {
+                    "respondent": {
+                        "name": "Александр",
+                        "phone": "+7 (333) 555-7777",
+                        "email": "alex@example.com"
+                    },
+                    "comment": "Отличный продукт! Превзошел мои ожидания."
+                },
+                {
+                    "respondent": {
+                        "email": "sasha@gmail.com"
+                    },
+                    "comment": "I love the product. It's exactly what I needed."
+                },
+                {
+                    "respondent": {
+                        "name": "Юлия",
+                        "phone": "+7 (777) 555-3333"
+                    },
+                    "comment": "Спасибо за качественный продукт. Все работает отлично."
+                },
+                {
+                    "respondent": {
+                        "email": "julia@mail.com"
+                    },
+                    "comment": "Great product! I use it every day without any issues."
+                },
+                {
+                    "respondent": {
+                        "name": "Сергей",
+                        "phone": "+7 (999) 777-8888",
+                        "email": "sergey@example.com"
+                    },
+                    "comment": "Продукт просто супер! Очень доволен."
+                },
+                {
+                    "respondent": {},
+                    "comment": "Спасибо за отличный продукт. Рекомендую всем!"
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (444) 555-6666",
+                        "email": "sam@example.com"
+                    },
+                    "comment": "I'm happy with the product. Keep up the good work!"
+                },
+                {
+                    "respondent": {
+                        "name": "Анастасия",
+                        "phone": "+7 (666) 555-4444"
+                    },
+                    "comment": "Отличный продукт! Удобен в использовании."
+                },
+                {
+                    "respondent": {
+                        "email": "nastya@gmail.com"
+                    },
+                    "comment": "Great features and excellent performance."
+                },
+                {
+                    "respondent": {
+                        "name": "Артем",
+                        "phone": "+7 (123) 456-7890"
+                    },
+                    "comment": "Продукт соответствует ожиданиям. Рекомендую!"
+                },
+                {
+                    "respondent": {
+                        "email": "art@example.com"
+                    },
+                    "comment": "Good product, but there is room for improvement."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (555) 777-9999"
+                    },
+                    "comment": "Отличный продукт! Пользуюсь уже несколько месяцев."
+                },
+                {
+                    "respondent": {
+                        "name": "Ирина",
+                        "email": "irina@mail.com"
+                    },
+                    "comment": "The product is great. I'm satisfied with my purchase."
+                },
+                {
+                    "respondent": {},
+                    "comment": "Спасибо за отличный продукт. Все работает на высшем уровне."
+                },
+                {
+                    "respondent": {
+                        "name": "Светлана",
+                        "email": "svetlana@example.com"
+                    },
+                    "comment": "Great features and easy to use. I love it!"
+                },
+                {
+                    "respondent": {},
+                    "comment": "Отличный продукт, рекомендую всем!"
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (777) 888-9999",
+                        "email": "jane.doe@mail.com"
+                    },
+                    "comment": "I'm satisfied with the product. Good job!"
+                },
+                {
+                    "respondent": {
+                        "name": "Дмитрий",
+                        "phone": "+7 (999) 888-7777"
+                    },
+                    "comment": "Продукт просто великолепен. Спасибо!"
+                },
+                {
+                    "respondent": {
+                        "email": "dmitry@example.com"
+                    },
+                    "comment": "Good product, but there are a few things to improve."
+                },
+                {
+                    "respondent": {
+                        "name": "Ольга",
+                        "phone": "+7 (123) 987-6543"
+                    },
+                    "comment": "Отличное качество! Пользуюсь с удовольствием."
+                },
+                {
+                    "respondent": {
+                        "email": "olga@gmail.com"
+                    },
+                    "comment": "Great features and user-friendly interface."
+                },
+                {
+                    "respondent": {
+                        "name": "Николай"
+                    },
+                    "comment": "Продукт просто супер! Спасибо за ваш труд."
+                },
+                {
+                    "respondent": {
+                        "phone": "+7 (111) 222-3344",
+                        "email": "nick@mail.com"
+                    },
+                    "comment": "The product is amazing. I recommend it to everyone!"
+                },
+                {
+                    "respondent": {},
+                    "comment": "Спасибо за отличный продукт. Пользуюсь каждый день."
+                },
+                {
+                    "respondent": {
+                        "name": "Александр",
+                        "phone": "+7 (333) 555-7777",
+                        "email": "alex@example.com"
+                    },
+                    "comment": "Отличный продукт! Превзошел мои ожидания."
+                },
+                {
+                    "respondent": {
+                        "email": "sasha@gmail.com"
+                    },
+                    "comment": "I love the product. It's exactly what I needed."
+                },
+                {
+                    "respondent": {
+                        "name": "Юлия",
+                        "phone": "+7 (777) 555-3333"
+                    },
+                    "comment": "Спасибо за качественный продукт. Все работает отлично."
+                },
+                {
+                    "respondent": {
+                        "email": "julia@mail.com"
+                    },
+                    "comment": "Great product! I use it every day without any issues."
+                },
+                {
+                    "respondent": {
+                        "name": "Сергей",
+                        "phone": "+7 (999) 777-8888",
+                        "email": "sergey@example.com"
+                    },
+                    "comment": "Продукт просто супер! Очень доволен."
+                }
+            ]
+        }
+    ]
+}
