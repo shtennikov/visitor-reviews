@@ -46,7 +46,7 @@ export class QuestionCard extends BaseComponent {
             this.activeExpander.setInactive();
         }
 
-        this.activeComments = new CommentList(comments);
+        this.activeComments = new CommentList(comments, this.emitter);
         this.activeExpander = expander;
         this.activeExpander.setActive();
 
@@ -63,5 +63,9 @@ export class QuestionCard extends BaseComponent {
     private setListeners(): void {
         this.emitter.on('active', this.handleToggleToActive.bind(this));
         this.emitter.on('unactive', this.handleToggleToUnactive.bind(this));
+        this.emitter.on('comments:close', () => {
+            this.activeComments?.destroy();
+            this.activeExpander?.setInactive();
+        });
     }
 }
