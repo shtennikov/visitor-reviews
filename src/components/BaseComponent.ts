@@ -1,7 +1,7 @@
 export abstract class BaseComponent {
-    protected node!: Element;
+    protected node!: HTMLElement;
 
-    public get element(): Element {
+    public get element(): HTMLElement {
         return this.node;
     }
 
@@ -14,7 +14,7 @@ export abstract class BaseComponent {
     }
 
     protected render(): void {
-        this.node = this.createElement();
+        this.node = this.createElement() as HTMLElement;
     }
 
     private createElement(): Element {
