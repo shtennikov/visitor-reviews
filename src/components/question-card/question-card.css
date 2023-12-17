@@ -1,0 +1,14 @@
+.question-card {
+    padding: 20px;
+    background-color: var(--main-background);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.question-card__question {
+    display: block;
+    padding: 0 8px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}

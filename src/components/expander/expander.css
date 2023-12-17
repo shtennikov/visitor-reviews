@@ -1,3 +1,7 @@
+.expander:not(:last-child) {
+    margin-bottom: 5px;
+}
+
 .expander.active {
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
 }
@@ -11,14 +15,15 @@
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    padding: 15px 5px;
+    padding: 10px 8px;
     border-radius: var(--radius);
     cursor: pointer;
+    user-select: none;
+}
 
-    &:hover,
-    .expander.active & {
-        background-color: var(--gray);
-    }
+.expander__label:hover,
+.expander.active .expander__label {
+    background-color: var(--ligth-gray);
 }
 
 .expander__count {
