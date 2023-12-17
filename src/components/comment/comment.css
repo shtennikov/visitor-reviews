@@ -1,30 +1,31 @@
-.answer {
+.comment {
     display: flex;
     align-items: flex-start;
     gap: 30px;
     max-width: 100%;
 }
 
-.answer__text {
+.comment__text {
     align-self: center;
 }
 
-.answer__user {
+.comment__user {
+    align-self: flex-start;
     min-width: 200px;
     max-width: 200px;
 }
 
 @media (max-width: 768px) {
-    .answer {
+    .comment {
         flex-direction: column;
         gap: 8px;
     }
 
-    .answer__text {
+    .comment__text {
         align-self: flex-start;
     }
 
-    .answer__user {
+    .comment__user {
         min-width: fit-content;
     }
 }

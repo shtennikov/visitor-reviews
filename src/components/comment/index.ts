@@ -29,9 +29,9 @@ export class CommentItem extends BaseComponent {
 
         const comment = document.createElement('span');
 
-        comment.classList.add('answer__text');
+        comment.classList.add('comment__text');
         comment.textContent = this.comment;
-        this.bage.element.classList.add('answer__user');
+        this.bage.element.classList.add('comment__user');
 
         this.node.append(this.bage.element, comment);
     }
