@@ -39,12 +39,7 @@ export class QuestionCard extends BaseComponent {
     }
 
     private handleToggleToActive(expander: Expander, comments: Comment[]): void {
-        if (this.activeComments) {
-            this.activeComments.destroy();
-        }
-        if (this.activeExpander) {
-            this.activeExpander.setInactive();
-        }
+        this.refreshState();
 
         this.activeComments = new CommentList(comments, this.emitter);
         this.activeExpander = expander;
@@ -60,12 +55,14 @@ export class QuestionCard extends BaseComponent {
         expander.setInactive();
     }
 
+    private refreshState(): void {
+        this.activeComments?.destroy();
+        this.activeExpander?.setInactive();
+    }
+
     private setListeners(): void {
         this.emitter.on('active', this.handleToggleToActive.bind(this));
         this.emitter.on('unactive', this.handleToggleToUnactive.bind(this));
-        this.emitter.on('comments:close', () => {
-            this.activeComments?.destroy();
-            this.activeExpander?.setInactive();
-        });
+        this.emitter.on('comments:close', this.refreshState.bind(this));
     }
 }
